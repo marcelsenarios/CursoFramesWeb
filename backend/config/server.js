@@ -15,6 +15,9 @@ server.listen(port, function() {
 	console.log(`BACKEND ESTA RODANDO NA PORTA ${port}`);
 });
 
+
+module.exports = server;
+
 /*
 server.use(function(req, res, next) {
 	//res.send('Funcionou!');
